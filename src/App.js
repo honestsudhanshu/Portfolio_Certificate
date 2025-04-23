@@ -3,12 +3,13 @@ import HERO from './components/HeroSection/Hero';
 import SUMMARY from './components/Summary/summary';
 import SKILL from './components/Skills/skill';
 import PROJECTS from'./components/Projects/project'
-import EDUCATION from './components/Education/ed.js'
+import EDUCATION from './components/Education/ed.js';
 import Ex from './components/Education/ex.js';
 
 // import Projets_Details from './components/projectDeital/p_detail.js';
 
 import Footer from './components/footer/ft.js';
+import CERTIFICATES from './components/Certificates/Certificates.js';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
       <PROJECTS>
         
       </PROJECTS>
+
+      <CERTIFICATES/>
+
       
       <EDUCATION></EDUCATION>
 
