@@ -46,16 +46,16 @@ const Project_list = [
 	{
 		id: 3,
 
-		name: 'To-Do List',
+		name: 'Book Hive Website',
 
-		techUsed: [...FrontEnd_List.filter((item) => ['Html' , 'Css' , 'Javascript', ].includes(item.name))],
+		techUsed: [...FrontEnd_List.filter((item) => ['Html' , 'Css' , 'Javascript','React' ].includes(item.name))],
 
-		details:'Developed a user-friendly To-Do List app featuring both predefined and customizable task management to enhance daily productivity tracking. Integrated localStorage to persist task status across sessions, ensuring users never lose progress. The app includes an intuitive UI with real-time task updates and dynamic additions. Deployed on Render for easy, installation-free access from any device, offering a smooth and responsive user experience.',
+		details:'I developed Book Hive, an intuitive e-commerce platform using React.js, Node.js, Express.js, and MongoDB, featuring a cart and secure Stripe-based payment system. The platform incorporates scalable user authentication and a responsive, high-performance interface. I improved navigation and product visibility with React and Redux, creating a seamless shopping experience. Additionally, I implemented a 24-hour refund system to ensure customer-focused and hassle-free service delivery.',
 		photo: project3_1,
 		photo_large: project3,
-		ddesc_long:'Developed a user-friendly To-Do List app featuring both predefined and customizable task management to enhance daily productivity tracking. Integrated localStorage to persist task status across sessions, ensuring users never lose progress. The app includes an intuitive and responsive UI with real-time task updates, dynamic additions, and smooth transitions for a seamless user experience. Deployed the application on Render, allowing instant access from any device without manual installations. The project emphasizes simplicity, performance, and accessibility, making daily task management efficient and enjoyable.',
-				codeLink: 'https://github.com/honestsudhanshu/to-do-list',
-		LiveApp: 'https://todoideal.onrender.com/',
+		ddesc_long:'I developed Book Hive, an intuitive e-commerce platform built with React.js, Node.js, Express.js, and MongoDB. The platform features a smooth cart and payment system, integrating secure user authentication using scalable React and Node.js technologies to enhance performance. User and cart data are stored securely, and the interface is designed to be fully responsive and high-performing. I leveraged React and Redux to improve overall navigation and product visibility, creating a seamless shopping experience. Additionally, I integrated a secure payment gateway with Stripe to enable trust-driven transactions and implemented a 24-hour refund system to ensure customer-focused, hassle-free service delivery.',
+				codeLink: 'https://github.com/honestsudhanshu/Book-Management',
+		
 	}
 ];
 
